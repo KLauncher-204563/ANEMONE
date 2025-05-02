@@ -1,0 +1,95 @@
+
+.work {
+  display: none;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+  @media screen and (min-width:1200px){
+    display: block;
+  }
+&_palka{
+  width: 202px;
+  height: 1px;
+  background: #000;
+  margin-bottom: 32px;
+}
+}
+
+.image-row {
+  display: flex;
+  justify-content: center; /* или space-between / space-around */
+  gap: 20px; /* отступы между изображениями */
+  flex-wrap: wrap; /* чтобы адаптировалось на мобилках */
+}
+
+.image-row picture img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.work_header {
+  display: flex;
+  align-items: center;
+  justify-content: center; // если хочешь выравнивание по центру родителя
+  gap: 20px; // расстояние между заголовком и полоской
+}
+.flowers_slogan{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.flowers_button{
+  margin-right: auto;
+margin-left: auto;
+margin-top: 40px;
+margin-bottom: 100px;
+color: #FFF;
+ font-family: "Montserrat";
+display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 38px;
+background: var(--pink, #E86F54);
+}
+.x{
+  position: absolute;
+}
+.z{
+
+@media screen and (min-width:337px){
+  position: relative;
+left: 80px;
+top: 17px;
+}
+}
+.v{
+  @media screen and (max-width:337px){
+      position: absolute;
+  margin-top: 17px;
+  margin-left: 325px;
+    }
+
+}
+.c{
+  position: relative;
+  right: 80px;
+  top: 17px;
+  @media screen and (max-width:337px){
+   right: 160px;
+  }
+}
+.flowerss{
+  width: 163px;
+height: 181px;
+flex-shrink: 0;
+}
