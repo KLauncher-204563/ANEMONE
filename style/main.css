@@ -163,7 +163,6 @@ h1, h2, h3, p {
 }
 
 .flowers_slogan {
-  margin-top: 50px;
   display: flex;
   justify-content: center;
   color: #000;
@@ -172,11 +171,16 @@ h1, h2, h3, p {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  position: relative;
+  bottom: 140px;
+  width: 190px;
 }
 
 .flowers_button {
-  margin-right: auto;
-  margin-left: auto;
+  margin-left: 30px;
+  border: none;
+  position: relative;
+  bottom: 150px;
   margin-top: 40px;
   margin-bottom: 100px;
   color: #FFF;
@@ -185,7 +189,6 @@ h1, h2, h3, p {
   padding: 16px 32px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
   flex-shrink: 0;
   border-radius: 38px;
   background: var(--pink, #E86F54);
@@ -203,17 +206,18 @@ h1, h2, h3, p {
   }
 }
 
-@media screen and (max-width: 337px) {
+@media screen and (max-width: 767px) {
   .v {
-    position: absolute;
+    position: relative;
     margin-top: 17px;
     margin-left: 325px;
+    bottom: 175px;
   }
 }
 
 .c {
   position: relative;
-  right: 80px;
+  right: 160px;
   top: 17px;
 }
 @media screen and (max-width: 337px) {
@@ -226,6 +230,10 @@ h1, h2, h3, p {
   width: 163px;
   height: 181px;
   flex-shrink: 0;
+}
+
+.flowers_lead {
+  position: absolute;
 }
 
 .delivery {
